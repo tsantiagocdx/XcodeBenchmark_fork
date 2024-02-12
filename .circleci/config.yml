@@ -4,7 +4,7 @@ jobs:
   build:
     macos:
       xcode: 15.2
-    resource_class: macos.m1.medium.gen1
+    resource_class: macos-m1.free
     environment:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
